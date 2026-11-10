@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vault Logistics Solutions | Integrated Logistics Across Saudi Arabia</title>
+  <meta name="description" content="Vault Logistics Solutions — integrated warehousing, yard management, distribution, customs clearance, co-packing, transportation and last-mile delivery across Jeddah, Riyadh and Dammam.">
+  <meta name="theme-color" content="#19475c">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Vault Logistics Solutions">
+  <meta property="og:description" content="Door-to-door logistics across the Kingdom: 800,000+ m² of storage, 3 strategic stations, 95%+ customer satisfaction.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/brand/vault-mark.svg">
+
+  <!-- Brand typeface (self-hosted) -->
+  <link rel="preload" href="assets/fonts/PingARLT-Bold.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="assets/fonts/PingARLT-Regular.woff" as="font" type="font/woff" crossorigin>
+
+  <!-- Tailwind (compiled: tools/build-tailwind.mjs) -->
+  <link rel="stylesheet" href="tailwind.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="hero-showcase.css">
+</head>
+
+<body class="bg-vault-mist text-zinc-900">
+
+  <!-- Skip link for keyboard users -->
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-white focus:text-vault-navy focus:px-4 focus:py-2 focus:rounded-full">Skip to content</a>
+
+  <!-- =====================================================
+       NAVBAR
+       ===================================================== -->
+  <header id="siteNav" class="site-nav fixed inset-x-0 top-0 z-50 backdrop-blur-md bg-vault-navy/70">
+    <nav class="mx-auto flex h-full max-w-7xl items-center justify-between px-5 lg:px-8" aria-label="Main navigation">
+
+      <!-- Logo -->
+      <a href="#home" class="flex items-center gap-3" aria-label="Vault Logistics Solutions — Home" class="flex items-center">
+        <img src="assets/brand/vault-logo-white.svg" alt="Vault Logistics Solutions" class="h-14 w-auto" width="88" height="56">
+      </a>
+
+      <!-- Desktop links -->
+      <ul class="hidden items-center gap-1 rounded-full border border-white/10 bg-white/5 p-1.5 lg:flex">
+        <li><a href="#home" class="nav-pill is-active" data-nav>Home</a></li>
+        <li><a href="#services" class="nav-pill" data-nav>Services</a></li>
+        <li><a href="#media" class="nav-pill" data-nav>Media Center</a></li>
+        <li><a href="#coverage" class="nav-pill" data-nav>Coverage</a></li>
+        <li><a href="contact.html" class="nav-pill">Contact</a></li>
+      </ul>
+
+      <div class="flex items-center gap-3">
+        <a href="contact.html" class="btn-primary hidden !px-6 !py-3 sm:inline-flex">Get a Quote</a>
+
+        <!-- Hamburger -->
+        <button id="menuToggle" type="button" class="hamburger inline-flex h-11 w-11 flex-col items-center justify-center rounded-full border border-white/15 bg-white/5 lg:hidden" aria-controls="mobileMenu" aria-expanded="false" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile dropdown -->
+    <div id="mobileMenu" class="mobile-menu border-t border-white/10 bg-vault-navy/95 backdrop-blur-md lg:hidden">
+      <ul class="flex flex-col gap-1 px-5 py-4">
+        <li><a href="#home" class="nav-pill w-full is-active" data-nav>Home</a></li>
+        <li><a href="#services" class="nav-pill w-full" data-nav>Services</a></li>
+        <li><a href="#media" class="nav-pill w-full" data-nav>Media Center</a></li>
+        <li><a href="#coverage" class="nav-pill w-full" data-nav>Coverage</a></li>
+        <li><a href="contact.html" class="nav-pill w-full">Contact</a></li>
+        <li class="pt-3"><a href="contact.html" class="btn-primary w-full">Get a Quote</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+    <section id="home" class="hero relative overflow-hidden pt-[var(--nav-height)]">
+      <div class="hero-glow -left-32 top-24 h-96 w-96 bg-vault-orange/25" aria-hidden="true"></div>
+      <div class="hero-glow -right-24 bottom-0 h-[28rem] w-[28rem] bg-white/5" aria-hidden="true"></div>
+
+      <!-- Brand mark watermark -->
+      <img src="assets/brand/vault-mark-dark.svg" alt="" aria-hidden="true" class="hero-mark pointer-events-none absolute select-none">
+
+      <!-- Decorative route lines -->
+      <svg class="pointer-events-none absolute inset-0 h-full w-full" viewBox="0 0 1440 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <path class="hero-route" d="M-50 620 C 300 520, 520 700, 820 520 S 1300 300, 1500 380" fill="none" stroke="#eb5c2e" stroke-opacity="0.35" stroke-width="2"/>
+        <path class="hero-route" d="M-50 420 C 260 360, 620 460, 900 300 S 1280 120, 1500 160" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1.5"/>
+        <circle cx="820" cy="520" r="5" fill="#eb5c2e"/>
+        <circle cx="900" cy="300" r="4" fill="#ffffff" fill-opacity="0.5"/>
+      </svg>
+
+      <div class="relative mx-auto grid max-w-7xl items-center gap-12 px-5 pb-40 pt-16 lg:grid-cols-12 lg:gap-10 lg:px-8 lg:pb-48 lg:pt-24">
+        <div class="lg:col-span-6">
+          <span class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-xs font-medium uppercase tracking-[0.2em] text-white/80">
+            <span class="h-2 w-2 rounded-full bg-vault-orange"></span>
+            Aligned with Saudi Vision 2030
+          </span>
+
+          <h1 class="mt-7 text-4xl font-bold leading-[1.1] text-white sm:text-5xl xl:text-6xl">
+            Moving the Kingdom's
+            <span class="text-vault-orange">supply chains</span>
+            forward — door to door.
+          </h1>
+
+          <p lang="ar" dir="rtl" class="font-ar mt-5 text-xl font-bold text-white/80 sm:text-2xl">
+            حلول لوجستية متكاملة من الميناء إلى باب العميل
+          </p>
+
+          <p class="mt-6 max-w-2xl text-base leading-relaxed text-white/70 sm:text-lg">
+            Vault Logistics Solutions integrates warehousing, yard management, customs clearance, transportation and last-mile delivery into one accountable service — operated from strategic stations in Jeddah, Riyadh and Dammam.
+          </p>
+
+          <div class="mt-10 flex flex-col gap-4 sm:flex-row">
+            <a href="contact.html" class="btn-primary">
+              Get a Quote
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#services" class="btn-ghost">Explore Our Services</a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6">
+          <!-- =================================================
+               HERO SHOWCASE — animated end-to-end journey
+               Styles: hero-showcase.css · Logic: hero-showcase.js
+               ================================================= -->
+          <div class="vs-root" dir="rtl" lang="ar" data-vault-showcase data-duration="6500" aria-roledescription="carousel" aria-label="رحلة Vault اللوجستية المتكاملة">
+            <div class="vs-viewport">
+              <span class="vs-live" dir="ltr" lang="en">End-to-end</span>
+
+              <svg class="vs-scene" viewBox="0 0 800 460" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="vsSceneTitle" lang="en" dir="ltr">
+                <title id="vsSceneTitle">Vault end-to-end logistics: warehouse construction, warehouse operations, land transport, port yard, and international sea and air freight</title>
+                <defs>
+                  <linearGradient id="vsSky" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#0c2835"/>
+                    <stop offset="1" stop-color="#215a73"/>
+                  </linearGradient>
+                  <linearGradient id="vsSea" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#2d6f8a"/>
+                    <stop offset="1" stop-color="#0f2f3d"/>
+                  </linearGradient>
+                  <linearGradient id="vsTrail" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+                    <stop offset="1" stop-color="#ffffff" stop-opacity=".55"/>
+                  </linearGradient>
+                  <pattern id="vsGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
+                  </pattern>
+                  <clipPath id="vsBeltClip"><rect x="560" y="280" width="230" height="52"/></clipPath>
+
+                  <!-- Shipping container (colour via `color`) -->
+                  <symbol id="vsCtr" viewBox="0 0 60 22">
+                    <rect width="60" height="22" rx="1.5" fill="currentColor"/>
+                    <path d="M6 3v16M12 3v16M18 3v16M24 3v16M30 3v16M36 3v16M42 3v16M48 3v16M54 3v16" stroke="#000" stroke-opacity=".18" stroke-width="1.5"/>
+                    <rect x=".75" y=".75" width="58.5" height="20.5" rx="1.5" fill="none" stroke="#000" stroke-opacity=".25" stroke-width="1.5"/>
+                  </symbol>
+
+                  <!-- Vault box truck (faces right) -->
+                  <symbol id="vsTruck" viewBox="0 0 250 80">
+                    <rect x="0" y="4" width="170" height="52" rx="3" fill="#f1f2f2"/>
+                    <rect x="0" y="45" width="170" height="5" fill="#eb5c2e"/>
+                    <image href="assets/brand/vault-logo-color.svg" x="12" y="7" width="58" height="37"/>
+                    <image href="assets/brand/vault-chevron.svg" x="122" y="15" width="32" height="26"/>
+                    <rect x="0" y="56" width="240" height="6" fill="#2a3033"/>
+                    <path d="M176 18h40l18 18v22h-58z" fill="#eb5c2e"/>
+                    <path d="M200 23h14l12 13h-26z" fill="#215a73"/>
+                    <rect x="228" y="44" width="6" height="5" rx="1" fill="#fde68a"/>
+                    <g fill="#1e2326" stroke="#5e6264" stroke-width="3">
+                      <circle cx="30" cy="66" r="10"/><circle cx="58" cy="66" r="10"/><circle cx="206" cy="66" r="10"/>
+                    </g>
+                    <g fill="#a7aaac"><circle cx="30" cy="66" r="3.5"/><circle cx="58" cy="66" r="3.5"/><circle cx="206" cy="66" r="3.5"/></g>
+                  </symbol>
+
+                  <!-- Vault container truck (faces right) -->
+                  <symbol id="vsTruckCtr" viewBox="0 0 250 80">
+                    <use href="#vsCtr" x="2" y="12" width="166" height="44" color="#3a7891"/>
+                    <rect x="0" y="56" width="240" height="6" fill="#2a3033"/>
+                    <path d="M176 18h40l18 18v22h-58z" fill="#eb5c2e"/>
+                    <path d="M200 23h14l12 13h-26z" fill="#215a73"/>
+                    <image href="assets/brand/vault-logo-mono-white.svg" x="180" y="38" width="22" height="14"/>
+                    <rect x="228" y="44" width="6" height="5" rx="1" fill="#fde68a"/>
+                    <g fill="#1e2326" stroke="#5e6264" stroke-width="3">
+                      <circle cx="30" cy="66" r="10"/><circle cx="58" cy="66" r="10"/><circle cx="206" cy="66" r="10"/>
+                    </g>
+                    <g fill="#a7aaac"><circle cx="30" cy="66" r="3.5"/><circle cx="58" cy="66" r="3.5"/><circle cx="206" cy="66" r="3.5"/></g>
+                  </symbol>
+
+                  <!-- Carton -->
+                  <symbol id="vsBox" viewBox="0 0 34 30">
+                    <rect width="34" height="30" rx="2" fill="#c9965a"/>
+                    <rect x="13" width="8" height="30" fill="#e3b77f" opacity=".7"/>
+                    <rect x=".5" y=".5" width="33" height="29" rx="2" fill="none" stroke="#000" stroke-opacity=".18"/>
+                  </symbol>
+                </defs>
+
+                <!-- Shared backdrop -->
+                <rect width="800" height="460" fill="url(#vsSky)"/>
+                <rect width="800" height="460" fill="url(#vsGrid)"/>
+
+                <!-- ===================== STAGE 1 · 2PL CONSTRUCTION ===================== -->
+                <g class="vs-stage is-active" data-stage="0" aria-hidden="true">
+                  <rect y="380" width="800" height="80" fill="#143c4e"/>
+                  <rect y="380" width="800" height="2" fill="#5f93a8" opacity=".45"/>
+
+                  <!-- dust -->
+                  <g fill="#d3d5d6">
+                    <circle class="vs-dust" cx="190" cy="372" r="6" style="--d:0s"/>
+                    <circle class="vs-dust" cx="380" cy="372" r="7" style="--d:.8s"/>
+                    <circle class="vs-dust" cx="560" cy="372" r="6" style="--d:1.6s"/>
+                  </g>
+
+                  <!-- foundation slab -->
+                  <rect class="vs-grow-x" x="160" y="366" width="440" height="14" fill="#7f8386" style="--d:.2s"/>
+
+                  <!-- steel columns -->
+                  <g fill="#a7aaac">
+                    <rect class="vs-grow-y" x="172" y="252" width="10" height="114" style="--d:.7s"/>
+                    <rect class="vs-grow-y" x="256" y="244" width="10" height="122" style="--d:.82s"/>
+                    <rect class="vs-grow-y" x="340" y="232" width="10" height="134" style="--d:.94s"/>
+                    <rect class="vs-grow-y" x="414" y="232" width="10" height="134" style="--d:1.06s"/>
+                    <rect class="vs-grow-y" x="498" y="244" width="10" height="122" style="--d:1.18s"/>
+                    <rect class="vs-grow-y" x="580" y="252" width="10" height="114" style="--d:1.3s"/>
+                  </g>
+
+                  <!-- walls -->
+                  <g class="vs-fade" style="--d:2.1s">
+                    <path d="M170 254L380 218L590 254V366H170Z" fill="#2a6782"/>
+                    <path d="M200 249V366M230 244V366M260 239V366M290 234V366M320 229V366M350 224V366M410 224V366M440 229V366M470 234V366M500 239V366M530 244V366M560 249V366" stroke="#215a73" stroke-width="2"/>
+                  </g>
+
+                  <!-- roof -->
+                  <path class="vs-drop" d="M156 256L380 214L604 256L596 262L380 222L164 262Z" fill="#d3d5d6" style="--d:1.6s"/>
+
+                  <!-- dock doors -->
+                  <g class="vs-fade" style="--d:2.7s">
+                    <g fill="#19475c" stroke="#5f93a8" stroke-width="2">
+                      <rect x="196" y="310" width="62" height="56"/>
+                      <rect x="290" y="310" width="62" height="56"/>
+                      <rect x="408" y="310" width="62" height="56"/>
+                      <rect x="502" y="310" width="62" height="56"/>
+                    </g>
+                    <path d="M196 322h62M196 334h62M196 346h62M290 322h62M290 334h62M290 346h62M408 322h62M408 334h62M408 346h62M502 322h62M502 334h62M502 346h62" stroke="#5f93a8" stroke-opacity=".5"/>
+                  </g>
+
+                  <!-- sign -->
+                  <g class="vs-pop" style="--d:3.2s">
+                    <rect x="333" y="258" width="94" height="48" rx="6" fill="#eb5c2e"/>
+                    <image href="assets/brand/vault-logo-mono-white.svg" x="345" y="262" width="70" height="44"/>
+                  </g>
+
+                  <!-- tower crane -->
+                  <g class="vs-crane-out">
+                    <rect x="668" y="110" width="14" height="270" fill="none" stroke="#eb5c2e" stroke-width="2.5"/>
+                    <path d="M668 110L682 140L668 170L682 200L668 230L682 260L668 290L682 320L668 350L682 380" fill="none" stroke="#eb5c2e" stroke-width="1.5"/>
+                    <path d="M668 104L675 66L682 104" fill="#eb5c2e"/>
+                    <rect x="560" y="104" width="222" height="8" fill="#eb5c2e"/>
+                    <path d="M675 66L566 104M675 66L776 104" stroke="#eb5c2e" stroke-opacity=".6" stroke-width="1.5"/>
+                    <rect x="744" y="112" width="34" height="18" fill="#5e6264"/>
+                    <rect x="662" y="112" width="26" height="16" rx="2" fill="#e6e7e8"/>
+                    <rect x="596" y="112" width="12" height="6" fill="#e6e7e8"/>
+                    <g class="vs-swing">
+                      <path d="M602 118V204" stroke="#d3d5d6" stroke-width="1.5"/>
+                      <rect x="595" y="204" width="14" height="9" rx="2" fill="#eb5c2e"/>
+                      <rect x="566" y="214" width="72" height="7" fill="#a7aaac"/>
+                    </g>
+                  </g>
+
+                  <!-- status chip -->
+                  <g class="vs-pop" style="--d:3.7s">
+                    <rect x="160" y="150" width="210" height="34" rx="17" fill="#ffffff" fill-opacity=".1" stroke="#ffffff" stroke-opacity=".25"/>
+                    <circle cx="180" cy="167" r="6" fill="#22c55e"/>
+                    <text x="194" y="171.5" font-family="Ping AR LT, sans-serif" font-size="12" font-weight="500" fill="#fff">Distribution centre ready</text>
+                  </g>
+                </g>
+
+                <!-- ===================== STAGE 2 · 3PL OPERATIONS ===================== -->
+                <g class="vs-stage" data-stage="1" aria-hidden="true">
+                  <rect width="800" height="460" fill="#11313f"/>
+                  <path d="M0 70L50 40L100 70L150 40L200 70L250 40L300 70L350 40L400 70L450 40L500 70L550 40L600 70L650 40L700 70L750 40L800 70" fill="none" stroke="#215a73" stroke-width="3"/>
+                  <rect y="68" width="800" height="6" fill="#215a73"/>
+                  <g fill="#fde68a" fill-opacity=".9">
+                    <rect x="130" y="74" width="40" height="4" rx="2"/><rect x="380" y="74" width="40" height="4" rx="2"/><rect x="630" y="74" width="40" height="4" rx="2"/>
+                  </g>
+                  <g fill="#fde68a" fill-opacity=".05">
+                    <path d="M130 78L60 380H240L170 78Z"/><path d="M380 78L310 380H490L420 78Z"/><path d="M630 78L560 380H740L670 78Z"/>
+                  </g>
+
+                  <rect y="380" width="800" height="80" fill="#143c4e"/>
+                  <path d="M0 420H800" stroke="#eb5c2e" stroke-width="3" stroke-dasharray="22 16" opacity=".55"/>
+
+                  <!-- racks -->
+                  <g>
+                    <g fill="#3a7891">
+                      <rect x="50" y="130" width="6" height="250"/><rect x="184" y="130" width="6" height="250"/>
+                      <rect x="210" y="130" width="6" height="250"/><rect x="344" y="130" width="6" height="250"/>
+                      <rect x="370" y="130" width="6" height="250"/><rect x="504" y="130" width="6" height="250"/>
+                    </g>
+                    <g fill="#eb5c2e">
+                      <rect x="50" y="160" width="140" height="6"/><rect x="50" y="240" width="140" height="6"/><rect x="50" y="320" width="140" height="6"/>
+                      <rect x="210" y="160" width="140" height="6"/><rect x="210" y="240" width="140" height="6"/><rect x="210" y="320" width="140" height="6"/>
+                      <rect x="370" y="160" width="140" height="6"/><rect x="370" y="240" width="140" height="6"/><rect x="370" y="320" width="140" height="6"/>
+                    </g>
+                    <!-- cartons -->
+                    <use href="#vsBox" x="62" y="130" width="34" height="30"/><use href="#vsBox" x="102" y="130" width="34" height="30"/><use href="#vsBox" x="142" y="130" width="34" height="30"/>
+                    <use href="#vsBox" x="62" y="210" width="34" height="30"/><use href="#vsBox" x="142" y="210" width="34" height="30"/>
+                    <use href="#vsBox" x="62" y="290" width="34" height="30"/><use href="#vsBox" x="102" y="290" width="34" height="30"/>
+                    <use href="#vsBox" x="222" y="130" width="34" height="30"/><use href="#vsBox" x="262" y="130" width="34" height="30"/>
+                    <use href="#vsBox" x="222" y="210" width="34" height="30"/><use href="#vsBox" x="262" y="210" width="34" height="30"/><use href="#vsBox" x="302" y="210" width="34" height="30"/>
+                    <use href="#vsBox" x="262" y="290" width="34" height="30"/><use href="#vsBox" x="302" y="290" width="34" height="30"/>
+                    <use href="#vsBox" x="382" y="130" width="34" height="30"/><use href="#vsBox" x="462" y="130" width="34" height="30"/>
+                    <use href="#vsBox" x="382" y="210" width="34" height="30"/><use href="#vsBox" x="422" y="210" width="34" height="30"/>
+                    <use href="#vsBox" x="382" y="290" width="34" height="30"/><use href="#vsBox" x="422" y="290" width="34" height="30"/><use href="#vsBox" x="462" y="290" width="34" height="30"/>
+                    <!-- scan highlights -->
+                    <g fill="none" stroke="#f1f2f2" stroke-width="2.5">
+                      <rect class="vs-scan" x="140" y="208" width="38" height="34" rx="3" style="--d:0s"/>
+                      <rect class="vs-scan" x="300" y="128" width="38" height="34" rx="3" style="--d:.8s"/>
+                      <rect class="vs-scan" x="420" y="288" width="38" height="34" rx="3" style="--d:1.6s"/>
+                    </g>
+                  </g>
+
+                  <!-- conveyor + sorting scanner -->
+                  <g>
+                    <g clip-path="url(#vsBeltClip)">
+                      <g class="vs-belt" style="--d:0s"><use href="#vsBox" x="532" y="302" width="30" height="26"/></g>
+                      <g class="vs-belt" style="--d:-1.5s"><use href="#vsBox" x="532" y="302" width="30" height="26"/></g>
+                      <g class="vs-belt" style="--d:-3s"><use href="#vsBox" x="532" y="302" width="30" height="26"/></g>
+                    </g>
+                    <rect x="560" y="328" width="230" height="10" rx="5" fill="#474b4d"/>
+                    <g fill="#7f8386"><circle cx="575" cy="333" r="2.5"/><circle cx="605" cy="333" r="2.5"/><circle cx="635" cy="333" r="2.5"/><circle cx="665" cy="333" r="2.5"/><circle cx="695" cy="333" r="2.5"/><circle cx="725" cy="333" r="2.5"/><circle cx="755" cy="333" r="2.5"/></g>
+                    <g fill="#474b4d"><rect x="574" y="338" width="6" height="42"/><rect x="770" y="338" width="6" height="42"/></g>
+                    <rect class="vs-beam" x="653" y="284" width="44" height="44" fill="#f1f2f2"/>
+                    <path d="M650 328V280H700V328" fill="none" stroke="#a7aaac" stroke-width="5" stroke-linejoin="round"/>
+                  </g>
+
+                  <!-- forklift -->
+                  <g class="vs-forklift">
+                    <rect x="36" y="338" width="10" height="26" fill="#b8441c"/>
+                    <rect x="40" y="334" width="60" height="32" rx="4" fill="#eb5c2e"/>
+                    <path d="M52 334V300H88V334" fill="none" stroke="#1b2226" stroke-width="3"/>
+                    <rect x="100" y="296" width="6" height="72" fill="#5e6264"/>
+                    <rect x="104" y="360" width="32" height="4" fill="#5e6264"/>
+                    <rect x="104" y="352" width="32" height="8" fill="#9a6a33"/>
+                    <use href="#vsBox" x="106" y="324" width="28" height="28"/>
+                    <circle cx="54" cy="370" r="10" fill="#1b2226"/><circle cx="92" cy="370" r="10" fill="#1b2226"/>
+                    <circle cx="54" cy="370" r="3.5" fill="#a7aaac"/><circle cx="92" cy="370" r="3.5" fill="#a7aaac"/>
+                  </g>
+
+                  <!-- WMS panel -->
+                  <g>
+                    <rect x="560" y="120" width="210" height="120" rx="12" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".2"/>
+                    <text x="578" y="146" font-family="Ping AR LT, sans-serif" font-size="12" font-weight="700" fill="#fff">WMS · Live inventory</text>
+                    <text x="578" y="164" font-family="Ping AR LT, sans-serif" font-size="9.5" font-weight="500" fill="#a7aaac">Inbound · Pick · Dispatch</text>
+                    <g fill="#eb5c2e">
+                      <rect class="vs-bar" x="580" y="186" width="16" height="40" rx="2" style="--d:0s"/>
+                      <rect class="vs-bar" x="608" y="176" width="16" height="50" rx="2" style="--d:.3s"/>
+                      <rect class="vs-bar" x="636" y="194" width="16" height="32" rx="2" style="--d:.6s"/>
+                      <rect class="vs-bar" x="664" y="180" width="16" height="46" rx="2" style="--d:.15s"/>
+                      <rect class="vs-bar" x="692" y="190" width="16" height="36" rx="2" style="--d:.45s"/>
+                      <rect class="vs-bar" x="720" y="172" width="16" height="54" rx="2" style="--d:.75s"/>
+                    </g>
+                  </g>
+                </g>
+
+                <!-- ===================== STAGE 3 · LAND FREIGHT ===================== -->
+                <g class="vs-stage" data-stage="2" aria-hidden="true">
+                  <!-- distant hills (parallax) -->
+                  <g class="vs-par-slow" fill="#215a73" fill-opacity=".75">
+                    <path d="M0 330Q100 280 200 318T400 306T600 296T800 330V384H0Z"/>
+                    <path d="M800 330Q900 280 1000 318T1200 306T1400 296T1600 330V384H800Z"/>
+                  </g>
+                  <!-- city silhouette (parallax) -->
+                  <g class="vs-par-mid" fill="#19475c">
+                    <path d="M0 384V340h40v-30h30v44h26v-60h34v66h40v-24h30v-36h28v60h44v-40h36v30h40v-70h30v80h46v-30h40v-20h34v50h44v-44h38v54h40v-26h40v40h40V384Z"/>
+                    <path d="M800 384V340h40v-30h30v44h26v-60h34v66h40v-24h30v-36h28v60h44v-40h36v30h40v-70h30v80h46v-30h40v-20h34v50h44v-44h38v54h40v-26h40v40h40V384Z"/>
+                  </g>
+
+                  <!-- highway -->
+                  <rect y="380" width="800" height="80" fill="#14232b"/>
+                  <rect y="384" width="800" height="2" fill="#a7aaac" fill-opacity=".5"/>
+                  <rect y="452" width="800" height="2" fill="#a7aaac" fill-opacity=".5"/>
+                  <path d="M0 419H800" stroke="#e6e7e8" stroke-width="3" stroke-dasharray="26 22" opacity=".7"/>
+
+                  <!-- road sign -->
+                  <rect x="602" y="262" width="6" height="120" fill="#7f8386"/>
+                  <rect x="508" y="236" width="194" height="40" rx="5" fill="#2a6782" stroke="#e6e7e8" stroke-width="2"/>
+                  <text x="605" y="261" text-anchor="middle" font-family="Ping AR LT, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2" fill="#fff">JEDDAH · RIYADH · DAMMAM</text>
+
+                  <!-- trucks (drawn before the warehouse so they roll out of it) -->
+                  <g transform="translate(-170 340)">
+                    <g class="vs-drive" style="--d:.2s"><g class="vs-bounce"><use href="#vsTruck" width="200" height="64"/></g></g>
+                  </g>
+                  <g transform="translate(-170 382)">
+                    <g class="vs-drive" style="--d:1.9s"><g class="vs-bounce"><use href="#vsTruck" width="200" height="64"/></g></g>
+                  </g>
+
+                  <!-- Vault warehouse -->
+                  <path d="M-10 294L72 268L162 294Z" fill="#d3d5d6"/>
+                  <rect x="0" y="294" width="152" height="90" fill="#2a6782"/>
+                  <path d="M20 294V384M40 294V384M60 294V384M80 294V384" stroke="#215a73" stroke-width="2"/>
+                  <rect x="12" y="300" width="70" height="42" rx="5" fill="#eb5c2e"/>
+                  <image href="assets/brand/vault-logo-mono-white.svg" x="20" y="303" width="54" height="35"/>
+                  <rect x="98" y="318" width="48" height="66" fill="#0c2835" stroke="#5f93a8" stroke-width="2"/>
+                </g>
+
+                <!-- ===================== STAGE 4 · PORT YARD ===================== -->
+                <g class="vs-stage" data-stage="3" aria-hidden="true">
+                  <!-- sea -->
+                  <rect x="520" y="352" width="280" height="108" fill="url(#vsSea)"/>
+                  <g class="vs-waves" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="2">
+                    <path d="M520 372q10-6 20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0"/>
+                    <path d="M520 400q10-6 20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0"/>
+                  </g>
+
+                  <!-- docked ship -->
+                  <g>
+                    <g>
+                      <use href="#vsCtr" x="600" y="300" width="46" height="18" color="#eb5c2e"/>
+                      <use href="#vsCtr" x="646" y="300" width="46" height="18" color="#3a7891"/>
+                      <use href="#vsCtr" x="692" y="300" width="46" height="18" color="#7f8386"/>
+                      <use href="#vsCtr" x="646" y="282" width="46" height="18" color="#2a6782"/>
+                      <use href="#vsCtr" x="692" y="282" width="46" height="18" color="#eb5c2e"/>
+                    </g>
+                    <rect x="752" y="262" width="30" height="56" fill="#e6e7e8"/>
+                    <rect x="752" y="268" width="30" height="6" fill="#215a73"/>
+                    <path d="M572 318H800V368H600Z" fill="#19475c"/>
+                    <path d="M588 354H800V368H600Z" fill="#b8441c"/>
+                  </g>
+
+                  <!-- quay -->
+                  <rect y="360" width="540" height="100" fill="#143c4e"/>
+                  <rect y="360" width="540" height="3" fill="#5f93a8" fill-opacity=".45"/>
+                  <rect x="528" y="360" width="12" height="100" fill="#5e6264"/>
+                  <path d="M0 446H520" stroke="#eb5c2e" stroke-width="2" stroke-dasharray="18 14" opacity=".5"/>
+
+                  <!-- container stacks -->
+                  <g>
+                    <use href="#vsCtr" x="40" y="338" width="60" height="22" color="#3a7891"/>
+                    <use href="#vsCtr" x="102" y="338" width="60" height="22" color="#eb5c2e"/>
+                    <use href="#vsCtr" x="164" y="338" width="60" height="22" color="#7f8386"/>
+                    <use href="#vsCtr" x="226" y="338" width="60" height="22" color="#2a6782"/>
+                    <use href="#vsCtr" x="288" y="338" width="60" height="22" color="#3a7891"/>
+                    <use href="#vsCtr" x="40" y="316" width="60" height="22" color="#7f8386"/>
+                    <use href="#vsCtr" x="102" y="316" width="60" height="22" color="#2a6782"/>
+                    <use href="#vsCtr" x="164" y="316" width="60" height="22" color="#eb5c2e"/>
+                    <use href="#vsCtr" x="288" y="316" width="60" height="22" color="#7f8386"/>
+                    <use href="#vsCtr" x="40" y="294" width="60" height="22" color="#eb5c2e"/>
+                    <use href="#vsCtr" x="164" y="294" width="60" height="22" color="#3a7891"/>
+                    <use href="#vsCtr" x="288" y="294" width="60" height="22" color="#2a6782"/>
+                  </g>
+
+                  <!-- RTG yard crane -->
+                  <g class="vs-rtg">
+                    <rect x="30" y="246" width="7" height="114" fill="#e6e7e8"/>
+                    <rect x="160" y="246" width="7" height="114" fill="#e6e7e8"/>
+                    <rect x="26" y="240" width="145" height="10" fill="#e6e7e8"/>
+                    <rect x="86" y="250" width="22" height="8" fill="#eb5c2e"/>
+                    <path d="M93 258V286M101 258V286" stroke="#d3d5d6" stroke-width="1.2"/>
+                  </g>
+
+                  <!-- STS ship-to-shore crane -->
+                  <g>
+                    <rect x="470" y="170" width="8" height="190" fill="#eb5c2e"/>
+                    <rect x="530" y="170" width="8" height="190" fill="#eb5c2e"/>
+                    <rect x="466" y="232" width="76" height="8" fill="#eb5c2e"/>
+                    <path d="M490 160L505 108L520 160" fill="none" stroke="#eb5c2e" stroke-width="6" stroke-linejoin="round"/>
+                    <path d="M505 108L790 160M505 108L440 160" stroke="#eb5c2e" stroke-opacity=".55" stroke-width="2"/>
+                  </g>
+                  <!-- trolley + hoisted container -->
+                  <g class="vs-trolley">
+                    <g class="vs-lift">
+                      <path d="M668 196V272M684 196V272" stroke="#d3d5d6" stroke-width="1.5"/>
+                      <rect x="652" y="270" width="48" height="5" fill="#5e6264"/>
+                      <use href="#vsCtr" x="652" y="275" width="48" height="20" color="#eb5c2e"/>
+                    </g>
+                    <rect x="656" y="166" width="40" height="30" rx="3" fill="#e6e7e8"/>
+                  </g>
+                  <rect x="440" y="158" width="360" height="10" fill="#eb5c2e"/>
+
+                  <!-- Vault container truck arriving -->
+                  <g transform="translate(250 376)">
+                    <g class="vs-arrive"><use href="#vsTruckCtr" width="200" height="64"/></g>
+                  </g>
+                </g>
+
+                <!-- ===================== STAGE 5 · SEA & AIR FREIGHT ===================== -->
+                <g class="vs-stage" data-stage="4" aria-hidden="true">
+                  <!-- clouds (parallax) -->
+                  <g class="vs-clouds" fill="#ffffff" fill-opacity=".07">
+                    <ellipse cx="120" cy="90" rx="70" ry="18"/><ellipse cx="160" cy="80" rx="40" ry="16"/>
+                    <ellipse cx="470" cy="60" rx="80" ry="16"/><ellipse cx="660" cy="120" rx="60" ry="14"/>
+                    <ellipse cx="920" cy="90" rx="70" ry="18"/><ellipse cx="960" cy="80" rx="40" ry="16"/>
+                    <ellipse cx="1270" cy="60" rx="80" ry="16"/><ellipse cx="1460" cy="120" rx="60" ry="14"/>
+                  </g>
+
+                  <!-- trade routes -->
+                  <path class="vs-route" d="M70 262Q400 30 740 210" fill="none" stroke="#eb5c2e" stroke-width="2" stroke-dasharray="8 6" stroke-opacity=".75"/>
+                  <path class="vs-route" d="M110 288Q430 150 770 262" fill="none" stroke="#a7aaac" stroke-width="1.5" stroke-dasharray="4 10" stroke-opacity=".6"/>
+                  <circle class="vs-ping" cx="70" cy="262" r="8" fill="none" stroke="#eb5c2e" stroke-width="2" style="--d:0s"/>
+                  <circle cx="70" cy="262" r="4" fill="#eb5c2e"/>
+                  <circle class="vs-ping" cx="740" cy="210" r="8" fill="none" stroke="#eb5c2e" stroke-width="2" style="--d:1s"/>
+                  <circle cx="740" cy="210" r="4" fill="#eb5c2e"/>
+
+                  <!-- cargo aircraft -->
+                  <g class="vs-fly">
+                    <rect x="-150" y="122" width="150" height="3" rx="1.5" fill="url(#vsTrail)"/>
+                    <path d="M50 120L58 102H66L74 120Z" fill="#a7aaac"/>
+                    <path d="M0 120h112q18 0 24 6q-6 6-24 6H4q-10-6-4-12z" fill="#f1f2f2"/>
+                    <path d="M2 120L-4 96H10L22 120Z" fill="#eb5c2e"/>
+                    <path d="M46 126H80L60 154H44Z" fill="#d3d5d6"/>
+                    <ellipse cx="62" cy="140" rx="9" ry="4" fill="#a7aaac"/>
+                    <path d="M118 121h10l6 5h-16z" fill="#215a73"/>
+                    <path d="M30 124h70" stroke="#215a73" stroke-width="2" stroke-dasharray="2 5"/>
+                  </g>
+
+                  <!-- ocean -->
+                  <rect y="300" width="800" height="160" fill="url(#vsSea)"/>
+                  <rect y="300" width="800" height="2" fill="#a7aaac" fill-opacity=".3"/>
+                  <g class="vs-waves" fill="none" stroke="#ffffff" stroke-opacity=".14" stroke-width="2">
+                    <path d="M0 330q10-6 20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0"/>
+                    <path d="M0 400q10-6 20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0"/>
+                  </g>
+
+                  <!-- container ship -->
+                  <g class="vs-sail">
+                    <g class="vs-bob">
+                      <path d="M130 366q20-4 40 0t40 0" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width="2"/>
+                      <path d="M150 380q16-4 32 0t32 0" fill="none" stroke="#ffffff" stroke-opacity=".25" stroke-width="2"/>
+                      <use href="#vsCtr" x="262" y="304" width="44" height="20" color="#eb5c2e"/>
+                      <use href="#vsCtr" x="306" y="304" width="44" height="20" color="#3a7891"/>
+                      <use href="#vsCtr" x="350" y="304" width="44" height="20" color="#7f8386"/>
+                      <use href="#vsCtr" x="394" y="304" width="44" height="20" color="#2a6782"/>
+                      <use href="#vsCtr" x="438" y="304" width="44" height="20" color="#eb5c2e"/>
+                      <use href="#vsCtr" x="306" y="284" width="44" height="20" color="#eb5c2e"/>
+                      <use href="#vsCtr" x="350" y="284" width="44" height="20" color="#2a6782"/>
+                      <use href="#vsCtr" x="394" y="284" width="44" height="20" color="#3a7891"/>
+                      <use href="#vsCtr" x="350" y="264" width="44" height="20" color="#7f8386"/>
+                      <rect x="216" y="262" width="36" height="62" fill="#f1f2f2"/>
+                      <rect x="216" y="268" width="36" height="6" fill="#215a73"/>
+                      <rect x="226" y="246" width="14" height="16" fill="#eb5c2e"/>
+                      <path d="M200 324H512L490 370H222Z" fill="#19475c"/>
+                      <path d="M210 356H499L490 370H222Z" fill="#b8441c"/>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+
+            <!-- Caption + progress (RTL) -->
+            <div class="vs-caption">
+              <div class="vs-text" aria-live="off">
+                <div class="flex items-center justify-between gap-3">
+                  <p class="vs-step">المرحلة <span data-vs-index>١</span> من ٥</p>
+                  <p class="vs-tag" dir="ltr" lang="en" data-vs-tag>2PL · Warehouse Construction</p>
+                </div>
+                <h2 class="vs-title" data-vs-title>إعداد وتشييد المستودعات 2PL</h2>
+                <p class="vs-sub" data-vs-sub>خدمات 2PL: تجهيز وتشييد البنية التحتية والمستودعات</p>
+              </div>
+
+              <div class="vs-segs" role="tablist" aria-label="مراحل الرحلة اللوجستية">
+                <button type="button" class="vs-seg is-current" role="tab" aria-selected="true" data-vs-go="0"><span class="vs-track"><span class="vs-fill"></span></span><span class="vs-seg-label">2PL</span></button>
+                <button type="button" class="vs-seg" role="tab" aria-selected="false" data-vs-go="1"><span class="vs-track"><span class="vs-fill"></span></span><span class="vs-seg-label">3PL</span></button>
+                <button type="button" class="vs-seg" role="tab" aria-selected="false" data-vs-go="2"><span class="vs-track"><span class="vs-fill"></span></span><span class="vs-seg-label">النقل البري</span></button>
+                <button type="button" class="vs-seg" role="tab" aria-selected="false" data-vs-go="3"><span class="vs-track"><span class="vs-fill"></span></span><span class="vs-seg-label">ساحات الميناء</span></button>
+                <button type="button" class="vs-seg" role="tab" aria-selected="false" data-vs-go="4"><span class="vs-track"><span class="vs-fill"></span></span><span class="vs-seg-label">الشحن الدولي</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Floating stats bar -->
+    <section aria-label="Key figures" class="relative z-10 -mt-24 px-5 lg:px-8">
+      <div class="stats-bar mx-auto grid max-w-5xl grid-cols-1 overflow-hidden rounded-3xl bg-white md:grid-cols-3">
+        <div class="stat-divider flex items-center gap-5 p-7 lg:p-9">
+          <div class="icon-box !h-14 !w-14 shrink-0 !bg-vault-orange/10 !text-vault-orange">
+            <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21V8l9-5 9 5v13"/><path d="M7 21v-8h10v8"/><path d="M7 17h10"/></svg>
+          </div>
+          <div>
+            <p class="text-3xl font-bold text-vault-navy lg:text-4xl">+<span data-counter="800000">800,000</span> <span class="text-xl lg:text-2xl">m²</span></p>
+            <p class="mt-1 text-sm font-medium text-zinc-500">Storage space</p>
+          </div>
+        </div>
+        <div class="stat-divider flex items-center gap-5 p-7 lg:p-9">
+          <div class="icon-box !h-14 !w-14 shrink-0 !bg-vault-orange/10 !text-vault-orange">
+            <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="M8.5 12.5 7 22l5-3 5 3-1.5-9.5"/></svg>
+          </div>
+          <div>
+            <p class="text-3xl font-bold text-vault-navy lg:text-4xl">+<span data-counter="5">5</span> <span class="text-xl lg:text-2xl">yrs</span></p>
+            <p class="mt-1 text-sm font-medium text-zinc-500">Industry experience</p>
+          </div>
+        </div>
+        <div class="stat-divider flex items-center gap-5 p-7 lg:p-9">
+          <div class="icon-box !h-14 !w-14 shrink-0 !bg-vault-orange/10 !text-vault-orange">
+            <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/></svg>
+          </div>
+          <div>
+            <p class="text-3xl font-bold text-vault-navy lg:text-4xl">+<span data-counter="95">95</span><span class="text-xl lg:text-2xl">%</span></p>
+            <p class="mt-1 text-sm font-medium text-zinc-500">Customer satisfaction</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         CORE CAPABILITIES
+         ===================================================== -->
+    <section id="services" class="py-24 lg:py-32">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="reveal mx-auto max-w-3xl text-center">
+          <span class="eyebrow">Core Capabilities</span>
+          <h2 class="mt-4 text-3xl font-bold text-vault-navy sm:text-4xl lg:text-5xl">Seven services. One seamless chain.</h2>
+          <p lang="ar" dir="rtl" class="font-ar mt-3 text-lg font-bold text-vault-navy/70">قدراتنا الأساسية</p>
+          <p class="mt-5 text-base leading-relaxed text-zinc-600 sm:text-lg">
+            Use a single service or combine them into one integrated door-to-door solution — with one contract, one account manager and full visibility from port to customer.
+          </p>
+        </div>
+
+        <div class="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+
+          <!-- 1. Warehousing -->
+          <article class="service-card reveal p-7">
+            <div class="icon-box">
+              <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 8.35V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8.35A2 2 0 0 1 3.26 6.5l8-3.2a2 2 0 0 1 1.48 0l8 3.2A2 2 0 0 1 22 8.35Z"/><path d="M6 18h12M6 14h12"/><rect x="6" y="10" width="12" height="12"/></svg>
+            </div>
+            <h3 class="mt-6 text-lg font-bold text-vault-navy">Warehousing</h3>
+            <p class="mt-3 text-sm leading-relaxed text-zinc-600">Secure storage with receiving, put-away, pick-and-pack and real-time inventory control across 800,000+ m².</p>
+            <a href="contact.html?service=warehousing" class="card-link mt-6 inline-flex items-center gap-2 text-sm font-bold">Request service <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- 2. Yard Management -->
+          <article class="service-card reveal p-7">
+            <div class="icon-box">
+              <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="13" width="9" height="7" rx="1"/><rect x="13" y="13" width="9" height="7" rx="1"/><rect x="7.5" y="4" width="9" height="7" rx="1"/><path d="M5 16v1M8 16v1M16 16v1M19 16v1M11 7v1M14 7v1"/></svg>
+            </div>
+            <h3 class="mt-6 text-lg font-bold text-vault-navy">Yard Management</h3>
+            <p class="mt-3 text-sm leading-relaxed text-zinc-600">Container storage, stacking and gate operations with tracked dwell times for laden and empty units.</p>
+            <a href="contact.html?service=yard" class="card-link mt-6 inline-flex items-center gap-2 text-sm font-bold">Request service <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- 3. Distribution -->
+          <article class="service-card reveal p-7">
+            <div class="icon-box">
+              <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><circle cx="4" cy="5" r="2"/><circle cx="20" cy="5" r="2"/><circle cx="4" cy="19" r="2"/><circle cx="20" cy="19" r="2"/><path d="m5.5 6.5 4.3 3.6M18.5 6.5l-4.3 3.6M5.5 17.5l4.3-3.6M18.5 17.5l-4.3-3.6"/></svg>
+            </div>
+            <h3 class="mt-6 text-lg font-bold text-vault-navy">Distribution</h3>
+            <p class="mt-3 text-sm leading-relaxed text-zinc-600">Scheduled replenishment to stores, distribution centres and B2B sites across the Kingdom.</p>
+            <a href="contact.html?service=distribution" class="card-link mt-6 inline-flex items-center gap-2 text-sm font-bold">Request service <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- 4. Customs Clearance -->
+          <article class="service-card reveal p-7">
+            <div class="icon-box">
+              <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="m9 15 2 2 4-4"/></svg>
+            </div>
+            <h3 class="mt-6 text-lg font-bold text-vault-navy">Customs Clearance</h3>
+            <p class="mt-3 text-sm leading-relaxed text-zinc-600">Declarations, duties, permits and port coordination handled by experienced clearance specialists.</p>
+            <a href="contact.html?service=customs" class="card-link mt-6 inline-flex items-center gap-2 text-sm font-bold">Request service <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- 5. Co-packing -->
+          <article class="service-card reveal p-7">
+            <div class="icon-box">
+              <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
+            </div>
+            <h3 class="mt-6 text-lg font-bold text-vault-navy">Co-packing</h3>
+            <p class="mt-3 text-sm leading-relaxed text-zinc-600">Kitting, bundling, re-labelling and promotional packs prepared retail-ready inside our facilities.</p>
+            <a href="contact.html?service=copacking" class="card-link mt-6 inline-flex items-center gap-2 text-sm font-bold">Request service <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- 6. Transportation -->
+          <article class="service-card reveal p-7">
+            <div class="icon-box">
+              <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
+            </div>
+            <h3 class="mt-6 text-lg font-bold text-vault-navy">Transportation</h3>
+            <p class="mt-3 text-sm leading-relaxed text-zinc-600">FTL and LTL trucking, container shuttling and inter-city linehaul with GPS-tracked fleets.</p>
+            <a href="contact.html?service=transportation" class="card-link mt-6 inline-flex items-center gap-2 text-sm font-bold">Request service <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- 7. Last Mile -->
+          <article class="service-card reveal p-7">
+            <div class="icon-box">
+              <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3 class="mt-6 text-lg font-bold text-vault-navy">Last Mile Delivery</h3>
+            <p class="mt-3 text-sm leading-relaxed text-zinc-600">Fast final-mile delivery to end customers with proof of delivery, COD handling and returns.</p>
+            <a href="contact.html?service=lastmile" class="card-link mt-6 inline-flex items-center gap-2 text-sm font-bold">Request service <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- Integrated solution (CTA card) -->
+          <article class="service-card is-featured reveal flex flex-col justify-between p-7">
+            <div>
+              <div class="icon-box !bg-vault-orange !text-white">
+                <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 2.1 21 6l-4 3.9"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 21.9-4-3.9 4-3.9"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg>
+              </div>
+              <h3 class="mt-6 text-lg font-bold text-white">Integrated Door-to-Door</h3>
+              <p class="mt-3 text-sm leading-relaxed text-white/70">Combine any services into one end-to-end flow, from port arrival to the customer's door.</p>
+            </div>
+            <a href="contact.html?service=integrated" class="btn-primary mt-6 !px-5 !py-3">Design my solution</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         MEDIA CENTER / LATEST NEWS
+         Source: Vault Logistics LinkedIn posts. Each card's full story
+         sits in .news-full and opens in the modal (script.js).
+         ===================================================== -->
+    <section id="media" class="bg-white py-24 lg:py-32">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="reveal flex flex-col justify-between gap-6 md:flex-row md:items-end">
+          <div class="max-w-2xl">
+            <span class="eyebrow">Media Center</span>
+            <h2 class="mt-4 text-3xl font-bold text-vault-navy sm:text-4xl lg:text-5xl">Latest news &amp; partnerships</h2>
+            <p lang="ar" dir="rtl" class="font-ar mt-3 text-lg font-bold text-vault-navy/70">المركز الإعلامي</p>
+          </div>
+          <p class="max-w-md text-sm leading-relaxed text-zinc-500">Agreements, partnerships and industry events that are expanding Vault's network across the Kingdom.</p>
+        </div>
+
+        <div class="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+          <!-- Post 1 (lead): SMLC 2026 -->
+          <article class="news-card reveal flex flex-col md:col-span-2 lg:flex-row">
+            <div class="news-thumb news-thumb--lead lg:w-1/2">
+              <img src="images/news/vault-smlc-2026.jpg" alt="Vault Logistics participating in the Saudi Maritime &amp; Logistics Congress 2026 as Official Diamond Sponsor" loading="lazy" class="news-img">
+              <span class="news-badge">Events</span>
+            </div>
+            <div class="flex flex-1 flex-col p-7 lg:p-9">
+              <time datetime="2026-10-21" class="text-xs font-medium uppercase tracking-wider text-zinc-400">21–22 Oct 2026 · Jeddah</time>
+              <h3 class="mt-3 text-xl font-bold leading-snug text-vault-navy lg:text-2xl">Vault is the Official Diamond Sponsor of the Saudi Maritime &amp; Logistics Congress 2026</h3>
+              <p class="mt-3 line-clamp-3 text-sm leading-relaxed text-zinc-600">Vault Logistics joined the Saudi Maritime &amp; Logistics Congress (VOYAGER 2026) at the Jeddah Superdome as Official Diamond Sponsor, connecting with industry leaders shaping the future of the maritime and logistics sectors.</p>
+              <div class="news-full" hidden>
+                <p>Vault Logistics took part in the Saudi Maritime &amp; Logistics Congress 2026 (VOYAGER 2026) as <strong>Official Diamond Sponsor</strong>, held on 21–22 October 2026 at the Jeddah Superdome.</p>
+                <p>The congress brings together more than 15,000 maritime professionals. Visitors met the Vault team at <strong>Stand B80</strong> to explore new opportunities and the integrated solutions shaping the future of the maritime and logistics sectors.</p>
+                <p>The event organisers welcomed Vault as a logistics provider offering agile, reliable end-to-end supply chain solutions, built on long-term partnerships with its clients.</p>
+              </div>
+              <button type="button" class="news-more mt-auto inline-flex items-center gap-2 self-start pt-6 text-sm font-bold text-vault-navy hover:text-vault-orange">Read more <span aria-hidden="true">→</span></button>
+            </div>
+          </article>
+
+          <!-- Post 2: Badael MoU -->
+          <article class="news-card reveal flex flex-col">
+            <div class="news-thumb">
+              <img src="images/news/vault-badael-mou.jpg" alt="Memorandum of understanding signing ceremony between Vault Logistics Solutions and Badael" loading="lazy" class="news-img">
+              <span class="news-badge">Partnerships</span>
+            </div>
+            <div class="flex flex-1 flex-col p-7">
+              <time datetime="2025-12" class="text-xs font-medium uppercase tracking-wider text-zinc-400">Dec 2025 · Riyadh</time>
+              <h3 class="mt-3 line-clamp-2 text-lg font-bold leading-snug text-vault-navy">Vault and Badael sign a strategic agreement</h3>
+              <p class="mt-3 line-clamp-3 text-sm leading-relaxed text-zinc-600">Signed during the Supply Chain &amp; Logistics Conference 2025 to develop the supply chain ecosystem and raise the efficiency of logistics operations in the Kingdom.</p>
+              <div class="news-full" hidden>
+                <p>During the Supply Chain &amp; Logistics Conference 2025, VAULT Logistics Solutions and <strong>Badael</strong> signed a strategic agreement aimed at developing the supply chain ecosystem and enhancing the efficiency of logistics operations in the Kingdom of Saudi Arabia.</p>
+                <p>Vault believes this collaboration will be a qualitative addition, contributing to operational excellence and supporting the Kingdom's aspirations in the logistics sector, and looks forward to many shared achievements ahead.</p>
+              </div>
+              <button type="button" class="news-more mt-auto inline-flex items-center gap-2 self-start pt-6 text-sm font-bold text-vault-navy hover:text-vault-orange">Read more <span aria-hidden="true">→</span></button>
+            </div>
+          </article>
+
+          <!-- Post 3: Erth MoU -->
+          <article class="news-card reveal flex flex-col">
+            <div class="news-thumb">
+              <img src="images/news/vault-erth-mou.jpg" alt="Vault Logistics and Erth memorandum of understanding signing ceremony for the Swift Logistics Complex" loading="lazy" class="news-img">
+              <span class="news-badge">Partnerships</span>
+            </div>
+            <div class="flex flex-1 flex-col p-7">
+              <time datetime="2025-12" class="text-xs font-medium uppercase tracking-wider text-zinc-400">Dec 2025 · Riyadh</time>
+              <h3 class="mt-3 line-clamp-2 text-lg font-bold leading-snug text-vault-navy">Vault signs MoU with Erth to lease 200,000 m² at the Swift Logistics Complex</h3>
+              <p class="mt-3 line-clamp-3 text-sm leading-relaxed text-zinc-600">A memorandum of understanding with Erth Company, signed during the Supply Chain &amp; Logistics Conference 2025, to lease warehouses within the Swift Logistics Complex project.</p>
+              <div class="news-full" hidden>
+                <p>During the Supply Chain &amp; Logistics Conference 2025, Vault Logistics Solutions signed a Memorandum of Understanding with <strong>Erth Company</strong> as part of the <strong>Swift Logistics Complex</strong> project, to lease warehouses with a total area of <strong>200,000 m²</strong>.</p>
+                <p>The agreement strengthens Vault's storage capacity and supports the growth of its warehousing and logistics services for clients across the Kingdom.</p>
+              </div>
+              <button type="button" class="news-more mt-auto inline-flex items-center gap-2 self-start pt-6 text-sm font-bold text-vault-navy hover:text-vault-orange">Read more <span aria-hidden="true">→</span></button>
+            </div>
+          </article>
+
+          <!-- Post 4: Makhzan agreement -->
+          <article class="news-card reveal flex flex-col">
+            <div class="news-thumb">
+              <img src="images/news/vault-makhzan-agreement.jpg" alt="Vault and Makhzan strategic agreement to advance logistics excellence in the Kingdom" loading="lazy" class="news-img">
+              <span class="news-badge">Agreements</span>
+            </div>
+            <div class="flex flex-1 flex-col p-7">
+              <time datetime="2025-12" class="text-xs font-medium uppercase tracking-wider text-zinc-400">Dec 2025</time>
+              <h3 class="mt-3 line-clamp-2 text-lg font-bold leading-snug text-vault-navy">Vault to operate a 30,000 m² facility in Riyadh with Makhzan Alarabia</h3>
+              <p class="mt-3 line-clamp-3 text-sm leading-relaxed text-zinc-600">An operating agreement with Almakhzan Alarabi Investment Company expands Vault's warehousing and logistics capabilities in the capital.</p>
+              <div class="news-full" hidden>
+                <p>Vault signed an operating agreement with <strong>Almakhzan Alarabi Investment Company</strong> to manage and operate a <strong>30,000 m² facility in Riyadh</strong>, enhancing its warehousing and logistics capabilities to support continued growth.</p>
+                <p>The agreement was signed by Mr. Faisal Al Jarbaa, Chief Executive Officer of Al Makhzan Al Arabi Investment Co., and Mr. Mohammed Malaikah, Chief Executive Officer of Vault Logistics.</p>
+              </div>
+              <button type="button" class="news-more mt-auto inline-flex items-center gap-2 self-start pt-6 text-sm font-bold text-vault-navy hover:text-vault-orange">Read more <span aria-hidden="true">→</span></button>
+            </div>
+          </article>
+
+          <!-- Post 5: Supply Chain & Logistics Conference -->
+          <article class="news-card reveal flex flex-col">
+            <div class="news-thumb">
+              <img src="images/news/vault-sclc-2025.jpg" alt="Vault honoured on stage at the 7th Supply Chain and Logistics Conference" loading="lazy" class="news-img">
+              <span class="news-badge">Events</span>
+            </div>
+            <div class="flex flex-1 flex-col p-7">
+              <time datetime="2025-12-15" class="text-xs font-medium uppercase tracking-wider text-zinc-400">15–16 Dec 2025 · Riyadh</time>
+              <h3 class="mt-3 line-clamp-2 text-lg font-bold leading-snug text-vault-navy">Vault joins the 7th Supply Chain &amp; Logistics Conference as Diamond Partner</h3>
+              <p class="mt-3 line-clamp-3 text-sm leading-relaxed text-zinc-600">Held under the patronage of H.E. Eng. Saleh bin Nasser Al-Jasser, Minister of Transport and Logistic Services.</p>
+              <div class="news-full" hidden>
+                <p>Vault was honoured to take part in the <strong>7th edition of the Supply Chain &amp; Logistics Conference</strong>, held under the patronage of H.E. Eng. Saleh bin Nasser Al-Jasser, Minister of Transport and Logistic Services.</p>
+                <p>Vault participated as <strong>Diamond Partner</strong>, underlining its leading role in supporting and developing the logistics services sector in the Kingdom.</p>
+                <p lang="ar" dir="rtl" class="font-ar">تشرّفت شركة فولت بالمشاركة في النسخة السابعة من مؤتمر سلاسل الإمداد والخدمات اللوجستية، الذي أُقيم تحت رعاية معالي المهندس صالح بن ناصر الجاسر، وزير النقل والخدمات اللوجستية، حيث شاركت فولت بصفتها الشريك الماسي، تأكيداً على ريادتها ودورها الفاعل في دعم وتطوير قطاع الخدمات اللوجستية بالمملكة.</p>
+              </div>
+              <button type="button" class="news-more mt-auto inline-flex items-center gap-2 self-start pt-6 text-sm font-bold text-vault-navy hover:text-vault-orange">Read more <span aria-hidden="true">→</span></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- News modal -->
+    <div id="newsModal" class="news-modal" role="dialog" aria-modal="true" aria-labelledby="newsModalTitle" hidden>
+      <div class="news-modal-backdrop" data-modal-close></div>
+      <div class="news-modal-panel">
+        <button type="button" class="news-modal-close" data-modal-close aria-label="Close">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+        <img id="newsModalImg" src="" alt="" class="w-full bg-vault-navy object-contain" style="max-height:60vh">
+        <div class="p-7 sm:p-9">
+          <p id="newsModalMeta" class="text-xs font-medium uppercase tracking-wider text-vault-orange"></p>
+          <h3 id="newsModalTitle" class="mt-3 text-2xl font-bold leading-snug text-vault-navy"></h3>
+          <div id="newsModalBody" class="news-modal-body mt-5 space-y-4 text-[15px] leading-relaxed text-zinc-600"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =====================================================
+         STRATEGIC COVERAGE HUBS
+         ===================================================== -->
+    <section id="coverage" class="py-24 lg:py-28">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="reveal mx-auto max-w-2xl text-center">
+          <span class="eyebrow">Strategic Coverage</span>
+          <h2 class="mt-4 text-3xl font-bold text-vault-navy sm:text-4xl">Three gateways. One national network.</h2>
+          <p lang="ar" dir="rtl" class="font-ar mt-3 text-lg font-bold text-vault-navy/70">محطاتنا الاستراتيجية</p>
+          <p class="mt-5 text-zinc-600">From the Red Sea to the Arabian Gulf, our stations connect ports, industrial zones and the Kingdom's largest consumer markets.</p>
+        </div>
+
+        <ul class="reveal mt-12 flex flex-wrap items-center justify-center gap-4 sm:gap-6">
+          <li class="hub-badge">
+            <span class="hub-dot" aria-hidden="true"></span>
+            <span class="text-left">
+              <span class="block text-base font-bold text-vault-navy">Jeddah <span class="font-ar font-bold text-vault-navy/60" lang="ar">· جدة</span></span>
+              <span class="block text-xs font-medium uppercase tracking-wider text-vault-orange">Headquarters · Red Sea Gateway</span>
+            </span>
+          </li>
+          <li class="hub-badge">
+            <span class="hub-dot" aria-hidden="true"></span>
+            <span class="text-left">
+              <span class="block text-base font-bold text-vault-navy">Riyadh <span class="font-ar font-bold text-vault-navy/60" lang="ar">· الرياض</span></span>
+              <span class="block text-xs font-medium uppercase tracking-wider text-zinc-500">Central Region Hub</span>
+            </span>
+          </li>
+          <li class="hub-badge">
+            <span class="hub-dot" aria-hidden="true"></span>
+            <span class="text-left">
+              <span class="block text-base font-bold text-vault-navy">Dammam <span class="font-ar font-bold text-vault-navy/60" lang="ar">· الدمام</span></span>
+              <span class="block text-xs font-medium uppercase tracking-wider text-zinc-500">Arabian Gulf Gateway</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         CTA BANNER
+         ===================================================== -->
+    <section class="px-5 pb-24 lg:px-8">
+      <div class="reveal relative mx-auto max-w-7xl overflow-hidden rounded-3xl bg-vault-navy px-8 py-14 sm:px-14 lg:flex lg:items-center lg:justify-between">
+        <div class="hero-glow -right-20 -top-20 h-72 w-72 bg-vault-orange/30" aria-hidden="true"></div>
+        <div class="relative max-w-2xl">
+          <h2 class="text-2xl font-bold text-white sm:text-3xl">Ready to simplify your supply chain?</h2>
+          <p class="mt-3 text-white/70">Tell us what you move and where. Our team will design a solution and send a tailored quote.</p>
+        </div>
+        <a href="contact.html" class="btn-primary relative mt-8 lg:mt-0">Get a Quote</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+  <footer class="bg-vault-navy-900 text-white">
+    <div class="mx-auto grid max-w-7xl gap-12 px-5 py-16 sm:grid-cols-2 lg:grid-cols-4 lg:px-8">
+      <div class="lg:col-span-1">
+        <a href="#home" class="flex items-center gap-3" aria-label="Vault Logistics Solutions — Home">
+          <img src="assets/brand/vault-logo-white.svg" alt="Vault Logistics Solutions" class="h-20 w-auto" width="126" height="80" loading="lazy">
+        </a>
+        <p class="mt-6 text-sm leading-relaxed text-white/60">Integrated, door-to-door logistics across the Kingdom of Saudi Arabia.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#" class="social-btn" aria-label="LinkedIn">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.3-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21H9z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="X (Twitter)">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23Zm-1.16 17.52h1.83L7.08 4.13H5.12Z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="YouTube">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8ZM9.75 15.02V8.98L15.5 12Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav aria-label="Company">
+        <h3 class="text-sm font-bold uppercase tracking-[0.18em] text-white">Company</h3>
+        <ul class="mt-5 space-y-3 text-sm">
+          <li><a href="#home" class="footer-link">Home</a></li>
+          <li><a href="#media" class="footer-link">Media Center</a></li>
+          <li><a href="#coverage" class="footer-link">Coverage</a></li>
+          <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-label="Services">
+        <h3 class="text-sm font-bold uppercase tracking-[0.18em] text-white">Services</h3>
+        <ul class="mt-5 space-y-3 text-sm">
+          <li><a href="#services" class="footer-link">Warehousing</a></li>
+          <li><a href="#services" class="footer-link">Yard Management</a></li>
+          <li><a href="#services" class="footer-link">Distribution</a></li>
+          <li><a href="#services" class="footer-link">Customs Clearance</a></li>
+          <li><a href="#services" class="footer-link">Co-packing</a></li>
+          <li><a href="#services" class="footer-link">Transportation</a></li>
+          <li><a href="#services" class="footer-link">Last Mile Delivery</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h3 class="text-sm font-bold uppercase tracking-[0.18em] text-white">Head Office</h3>
+        <address class="mt-5 space-y-3 text-sm not-italic leading-relaxed text-white/70">
+          <p>King Abdulaziz Road,<br>Al Nahdah District, Jeddah<br>Kingdom of Saudi Arabia</p>
+          <p class="text-white/50">Stations: Jeddah · Riyadh · Dammam</p>
+        </address>
+        <a href="contact.html" class="btn-primary mt-6 !px-5 !py-3">Get a Quote</a>
+      </div>
+    </div>
+
+    <!-- Bottom orange bar -->
+    <div class="bg-vault-orange">
+      <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-5 py-4 text-xs font-medium text-white sm:flex-row lg:px-8">
+        <p>© <span data-year>2026</span> Vault Logistics Solutions. All rights reserved.</p>
+        <p class="font-ar" lang="ar" dir="rtl">حلول لوجستية متكاملة · من الباب إلى الباب</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="backToTop" type="button" class="back-to-top fixed bottom-6 right-6 z-40 inline-flex h-12 w-12 items-center justify-center rounded-full bg-vault-orange text-white shadow-lg hover:bg-vault-orange-600" aria-label="Back to top">
+    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
+  <script src="script.js" defer></script>
+  <script src="hero-showcase.js" defer></script>
+</body>
+</html>

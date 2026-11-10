@@ -1,0 +1,15 @@
+/* Tailwind source for Vault Logistics Solutions — compiled to /tailwind.css */
+@import "tailwindcss";
+
+@theme {
+  --color-vault-navy: #19475c;
+  --color-vault-navy-900: #0f2f3d;
+  --color-vault-navy-700: #215a73;
+  --color-vault-orange: #eb5c2e;
+  --color-vault-orange-600: #cf4a1d;
+  --color-vault-gray: #a7aaac;
+  --color-vault-mist: #f5f6f6;
+
+  --font-sans: "Ping AR LT", system-ui, Tahoma, sans-serif;
+  --font-ar: "Ping AR LT", Tahoma, sans-serif;
+}
